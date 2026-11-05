@@ -1,0 +1,14 @@
+{
+  "name": "growwithak",
+  "description": "Reel editing styles for Claude Code by Grow with AK (@_growwithak).",
+  "owner": {
+    "name": "Grow with AK"
+  },
+  "plugins": [
+    {
+      "name": "growwithak-style-pack",
+      "source": "./",
+      "description": "103 hashtag-ordered Instagram Reel editing styles for talking-head videos, with a visual Reel Menu."
+    }
+  ]
+}

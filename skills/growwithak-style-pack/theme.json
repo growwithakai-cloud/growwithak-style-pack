@@ -1,0 +1,21 @@
+{
+  "about": "Your theme. Change only the \"value\" fields (or ask Claude: \"use my colours #... and my font ...\"). The \"default\" fields are the Peach Sorbet colours the recipes in styles.md are written in, so Claude can map each one to yours.",
+  "name": "Peach Sorbet",
+  "handle": "",
+  "colors": {
+    "white":    { "role": "Paper: cards, frames, pills and caption blocks", "default": "#FFFFFF", "value": "#FFFFFF" },
+    "butter":   { "role": "Accent: the one key word per frame, highlights, ticks, canvases", "default": "#FFE59A", "value": "#FFE59A" },
+    "blush":    { "role": "Soft: chips, tags, avatars, pinboards, subtitle pills", "default": "#F9CFD6", "value": "#F9CFD6" },
+    "cocoa":    { "role": "Ink: all text, borders, cursors, arrows, shadows (shadow is this colour at 25-30% opacity)", "default": "#3B2626", "value": "#3B2626" },
+    "burgundy": { "role": "Deep: the #scrapbook room and the #glowup After card; gradient runs light, mid, dark", "default": ["#8A2A3F", "#6B1A2C", "#4A0F1D"], "value": ["#8A2A3F", "#6B1A2C", "#4A0F1D"] },
+    "cream":    { "role": "Warm paper: kinetic and flashcard backgrounds, monitor bezel", "default": ["#FFF8EF", "#FFFDF8", "#F6EAD6"], "value": ["#FFF8EF", "#FFFDF8", "#F6EAD6"] },
+    "line":     { "role": "Faint rules on notebook paper", "default": "#F3E2E4", "value": "#F3E2E4" },
+    "phone":    { "role": "Dark phone body and screen", "default": ["#1D1717", "#2C2222"], "value": ["#1D1717", "#2C2222"] }
+  },
+  "fonts": {
+    "title":  { "role": "Titles, big words, key words", "default": "Fraunces", "value": "Fraunces", "files": ["fonts/fraunces.woff2", "fonts/fraunces-italic.woff2"], "fallback": "Georgia, serif" },
+    "body":   { "role": "Captions, chips, buttons, body text", "default": "Figtree", "value": "Figtree", "files": ["fonts/figtree.woff2"], "fallback": "system-ui, sans-serif" },
+    "accent": { "role": "Typewriter labels (Course 5 only), system font, nothing to install", "default": "\"American Typewriter\", \"Courier New\", monospace", "value": "\"American Typewriter\", \"Courier New\", monospace" },
+    "hand":   { "role": "Handwritten lines (#butterhook, notes), system font", "default": "\"Bradley Hand\", \"Segoe Print\", cursive", "value": "\"Bradley Hand\", \"Segoe Print\", cursive" }
+  }
+}
