@@ -12,10 +12,18 @@ A real Reel edited with the pack: one take, pauses cut, a style on every idea.
   <img src="media/reel.gif" width="240" alt="A full Reel edited with the pack: #glass, #timer, #highlight, #toolcard, #diagram, #flashcards, #pullback, #wall, #counter and #comment, with #checklist ticking off beside the speaker">
 </p>
 
-| `#highlight` | `#toolcard` | `#counter` | `#comment` |
+| `#cover` | `#glass` | `#timer` | `#highlight` |
 |:-:|:-:|:-:|:-:|
-| <img src="media/highlight.gif" width="180" alt="#highlight: a real article zooms in and a butter highlighter sweeps the quote"> | <img src="media/toolcard.gif" width="180" alt="#toolcard: the real logo with platform and price chips"> | <img src="media/counter.gif" width="180" alt="#counter: a series title with a running counter over a big label"> | <img src="media/comment.gif" width="180" alt="#comment: a comment bar rises and the keyword types out"> |
-| An article quote, highlighted | A tool, its platforms and price | A numbered series counter | A comment-to-get call to action |
+| <img src="media/cover.gif" width="180" alt="#cover: the title card behind the speaker"> | <img src="media/glass.gif" width="180" alt="#glass: frosted glass panels floating around the speaker"> | <img src="media/timer.gif" width="180" alt="#timer: a ring timer counting up"> | <img src="media/highlight.gif" width="180" alt="#highlight: a real article zooms in and a butter highlighter sweeps the quote"> |
+| A magazine-style title behind you | Frosted glass panels around you | A ring timer counts up to the number | An article quote, highlighted |
+| `#toolcard` | `#diagram` | `#flashcards` | `#pullback` |
+| <img src="media/toolcard.gif" width="180" alt="#toolcard: the real logo with platform and price chips"> | <img src="media/diagram.gif" width="180" alt="#diagram: a cloud and boxes wiring up into a flow"> | <img src="media/flashcards.gif" width="180" alt="#flashcards: cream flashcards flipping with serif labels"> | <img src="media/pullback.gif" width="180" alt="#pullback: the shot shrinks into a window with a task list"> |
+| A tool, its platforms and price | A simple animated explainer | Flashcards flip through features | Your shot pulls back into an app |
+| `#wall` | `#counter` | `#comment` | `#checklist` |
+| <img src="media/wall.gif" width="180" alt="#wall: the wall behind the speaker fills with thumbnails"> | <img src="media/counter.gif" width="180" alt="#counter: a series title with a running counter over a big label"> | <img src="media/comment.gif" width="180" alt="#comment: a comment bar rises and the keyword types out"> | <img src="media/checklist.gif" width="180" alt="#checklist: an edit checklist ticking off each style"> |
+| A wall of your past thumbnails | A numbered series counter | A comment-to-get call to action | Steps tick off as you go (3× speed) |
+
+Every style in the pack is in the [Reel Menu](https://growwithakai-cloud.github.io/growwithak-style-pack/).
 
 ## What you need
 
