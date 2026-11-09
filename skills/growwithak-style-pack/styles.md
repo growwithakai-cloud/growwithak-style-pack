@@ -2,7 +2,7 @@
 
 Colours and fonts below are the default theme. Swap each for its role in `theme.json` (see "Your theme" in `SKILL.md`).
 
-103 styles: Courses 1–4 are the original nine from the Reel "Hey Claude, can you…", Course 5 is eight handmade, paper-and-typewriter styles, Course 6 is six styles for tool reviews and big moments, and Courses 7–14 are 80 more styles for hooks, captions, layouts, proof, visual beats, app moments, signature effects, pace, sound and finish. Courses 7–14 give the look and the key numbers; build the details with the shared pieces below and the house rules. All sizes are on a 1080×1920 composition (rendered at 4K). This file says exactly what each must look like so you can build it on new footage. "Say it on" is the spoken word the style lands on.
+106 styles: Courses 1–4 are the original nine from the Reel "Hey Claude, can you…", Course 5 is eight handmade, paper-and-typewriter styles, Course 6 is six styles for tool reviews and big moments, and Courses 7–14 are 83 more styles for hooks, captions, layouts, proof, visual beats, app moments, signature effects, pace, sound and finish. Courses 7–14 give the look and the key numbers; build the details with the shared pieces below and the house rules. All sizes are on a 1080×1920 composition (rendered at 4K). This file says exactly what each must look like so you can build it on new footage. "Say it on" is the spoken word the style lands on.
 
 Shared pieces:
 - **Pop-in:** scale 0.6 → 1, `back.out(2)`, 0.4s. Cards may tilt a few degrees.
@@ -104,9 +104,10 @@ Say it on: "here's my process" / "step by step". The whole explanation, up to ab
 - Full-frame blush board `#F9CFD6` with a cork-like dot texture: cocoa 10% dots (3px, every 38px) plus white 55% dots (2px, every 26px, offset 13/9).
 - Lined white page 780×1000 at left 150 / top 290, rotated -1.5°, radius 6: blush margin line 4px at x 118, lines every 121px. Two butter tape strips (190×56, 85% opacity) on the top edge, tilted ±6°.
 - Up to four steps 210px apart from 120px down inside the page: butter number circle 96px (Fraunces 600 56px cocoa) + label in the typewriter accent 40px on a cream `#fff8ef` slip. Each step pops in (scale 0.6, -4° → 1) on the word that starts it.
-- You stay on screen in a circle: 300px, 12px white border, at left 620 / top 1180, showing `talk-1080.mp4` (muted, same time) framed on the face.
+- You stay on screen in a big circle: 460px, 12px white border, at left 560 / top 1100, showing `talk-1080.mp4` (muted, same time) scaled up so your face fills the circle. Measure the face from a real frame; never go under 400px, or the face does not read on a phone.
 - Cocoa stamp at left 80 / top 1220, rotated -8°: white Figtree 800 40px caps, letter-spacing .14em (e.g. "PROCESS"), pops in 0.9s after the board.
-- Steps come from the script; default to the steps they say. Keep the page above y 1500.
+- Steps come from the script; default to the steps they say. Make them a real, tangible example of what actually happened (for example "Film one take · Type /styles #map · Get a 35s Reel"), not generic labels. Keep the page above y 1500.
+- Inside #commandchat it plays full screen: stay zoomed straight from the beat before it.
 
 ### #monitor · Retro monitor
 Say it on: "code", "prompt" or "it wrote". About 3s.
@@ -194,7 +195,6 @@ Say it on: a location or outfit change, or a new chapter. On the cut itself.
 - The incoming clip starts at scale 1.18 with `blur(14px)` and settles to scale 1, no blur, over 0.35s (`power3.out`).
 - Silent. No more than three flash cuts per Reel.
 
-
 ## Course 7 · Hooks
 
 More ways to stop the scroll in the first second.
@@ -235,6 +235,12 @@ Say it on: your first line.
 - Centred at top 270 from frame 1; lifts up 40px and fades at about 3s.
 
 
+### #bigtitle · Big yellow title
+Say it on: your first line (a number plus a promise works best: "100+ Styles / 1 command each").
+- Two centred lines in the top band from top 300, above the head: line 1 Figtree 900 150px butter, letter-spacing -0.03em, line-height 0.95; line 2 Figtree 600 58px butter, 18px below.
+- Both lines get a 14px cocoa outline (`-webkit-text-stroke` with `paint-order: stroke fill`) so the butter reads on a light wall. This is the one style with butter text; the outline keeps it on brand.
+- On screen from frame 1: line 1 pops in (y 30 → 0, scale 0.9 → 1, 0.35s, `back.out(1.8)`), line 2 rises 0.2s later. Holds about 2.5s, then the frame cuts or the title lifts away.
+
 ## Course 8 · Captions
 
 Other ways to show your words. Always off your face.
@@ -269,7 +275,6 @@ Say it on: an important explanation.
 - 3–5 words, each a step lower and further right in the emptiest part of the frame (never on the face): Figtree 800 56px cocoa on white tags.
 - The keyword is Fraunces italic 110px cocoa with a butter underline that draws in; clear and restart for the next phrase.
 
-
 ## Course 9 · Layouts
 
 How you and the graphics share the frame.
@@ -298,7 +303,6 @@ Say it on: every new idea.
 Say it on: showing a process.
 - The screen recording fills a white card (radius 30) in the top 70%; you play in a white-border polaroid 300×360 bottom left, rotated -8°.
 - Polaroid stays clear of the bottom 420px.
-
 
 ## Course 10 · Proof
 
@@ -338,7 +342,6 @@ Say it on: a number in a tool.
 Say it on: your real result.
 - A filming direction: film the real screen with the finger on the number; add a butter ring around the number (6px) and nothing else.
 - Swap any private numbers they do not want shown.
-
 
 ## Course 11 · Visual beats
 
@@ -445,6 +448,13 @@ Say it on: "it works on anything".
 - Clips swap every second to show several examples.
 
 
+### #map · Map route
+Say it on: a journey, a trip, "from A to B", or a path from start to finish.
+- Full-frame flat vector street map: ground `#EAE5DC`, blocks `#F6F2EB` (radius 8), parks `#CFE3B4`, street names in Figtree 600 26px `#9C968E`.
+- A red route `#E53935` (14px, round caps and joins) over an `#8E1B1B` 26px outline draws along right-angle streets with rounded corners, from a red start pin to a green end pin `#2E9E48` (white 7px pin stroke), about 1.4s, `power1.inOut`. Draw the outline and the route together with `strokeDashoffset`.
+- A small red car follows the tip of the route and turns with it: place it with `getPointAtLength` and `atan2` on each update. The start pin pops first, stop pins pop (scale 0 → 1, `back.out(2.5)`) as the route reaches them, and the end pin lands as the route arrives.
+- Real places only when the user names them; otherwise generic street names. The route colours are the accepted exception to the palette here. Inside #commandchat it plays zoomed to full screen.
+
 ## Course 12 · App moments
 
 Recreated app moments as animated b-roll. Swap anything private.
@@ -505,6 +515,19 @@ Say it on: a big launch.
 - Only footage they may use.
 
 
+### #commandchat · Command chat
+Say it on: each item of a list (every style or tool name you say). Use it for a whole section, not one moment.
+- Full-frame dark chat screen, `#1F1D1B` (the one dark-screen style; panels `#2B2926`, `#3A3733`, text `#ECE8E2`, dim `#9C968E`, accent butter).
+- Top bar at top 262: a "Chat | Code" pill toggle (Figtree 700 34px, Code selected) with two round 60px buttons at the sides.
+- Your message, right-aligned at top 380: a 120px rounded thumbnail of your clip above a pill that types `/styles #name` (Figtree 700 40px butter, about 0.055s a character so viewers see it type, with a 4px butter caret blinking beside it) the moment you say each name.
+- Status line at top 620: a butter ✳ that spins the whole time, then "Editing with #name…" (Figtree 700 34px dim) once the command finishes typing, and a small caps tag on the right (`MUTED`, `SPED UP`, 28px).
+- Your clip in a 560×996 card at left 50 / top 690, radius 30, playing in sync with the commands, each style already applied to it on its word.
+- Payoff: the command becomes `/styles --all` with "100+ styles ready", then the card drops away and a plain reply types in its place (Figtree 600 52px, keyword in butter), for example "Comment **STYLE** for the full guide."
+- Zoom: for showpiece styles (#map, #pinboard, #uiworld, #botchat, #chart), once the command finishes typing the card zooms to full screen (to x -50, y -690, scale 1.9286, radius 0, 0.45s `power3.inOut`, transform origin 0 0) so only the animation shows; the top bar, thumbnail and status line hide. Zoom back out (0.35s) about 0.4s before the next command.
+- While zoomed, the command pill stays readable: it lifts 310px into the empty top-bar space, fades 0.9s after the zoom, and comes back for any command typed while zoomed.
+- Silent by default: no typing clicks. The user adds music in Instagram.
+- Open on a #bigtitle hook (about 2.5s of you full frame), then cut to the chat for the list.
+
 ## Course 13 · Signature effects
 
 One-second showpieces. One per idea, never stacked.
@@ -537,6 +560,8 @@ Say it on: a scene change.
 ### #chart · Chart grow
 Say it on: growth or a big number.
 - Behind the cut-out: a butter line (14px, cocoa 4px outline) draws left to right, then shoots up; the number pops at the end in Figtree 900 cocoa on white.
+- Chart types variant (for a longer chart beat): the chart types draw behind you two at a time in the top band, above your head: column + pie, then the line shooting up beside the number counting up, then bar + area, then column + line. Each chart has a Figtree 800 label with a 12px white outline (`paint-order: stroke fill`). The multicolour set (blue `#4FA3DD`, green `#9BCB3B`, orange `#F7941D`, pink `#EE7EA7`, yellow `#FFD54F`) is the accepted exception to the palette here.
+- Nest each chart in a positioned outer `<g transform>` and animate an inner `<g>`: GSAP overwrites an SVG group's own transform.
 - No neon or glow. Real data only.
 
 ### #pullback · Pull-back reveal
@@ -578,7 +603,6 @@ Say it on: naming several features.
 Say it on: an explainer.
 - Cocoa background; a monitor with simple cream line art on screen and a butter keyboard glow strip; fixed title in Fraunces italic 64px white below.
 - The only style where text is white on cocoa across the whole frame.
-
 
 ## Course 14 · Pace, sound & finish
 

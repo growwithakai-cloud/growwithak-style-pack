@@ -1,6 +1,6 @@
 # growwithak style pack
 
-103 Instagram Reel editing styles you order by hashtag. Film one vertical talking-head take, pick styles like `#butterhook #checklist #pill`, and Claude Code edits it into a finished 9:16 Reel: pauses cut, voice cleaned, a mockup first, then a 4K render.
+106 Instagram Reel editing styles you order by hashtag. Film one vertical talking-head take, pick styles like `#butterhook #checklist #pill`, and Claude Code edits it into a finished 9:16 Reel: pauses cut, voice cleaned, a mockup first, then a 4K render.
 
 **See every style:** open the [Reel Menu](https://growwithakai-cloud.github.io/growwithak-style-pack/) (or `docs/index.html` in this repo). Tap "+ Add this style" on the ones you like, then "Copy prompt".
 
@@ -79,7 +79,7 @@ Change the growwithak style pack theme to my colours #1E3A5F #FFD166 and my hand
 ```
 skills/growwithak-style-pack/
   SKILL.md        how Claude takes your order, what it asks for, setup and house rules
-  styles.md       the recipe for every one of the 103 styles
+  styles.md       the recipe for every one of the 106 styles
   theme.json      your colours, fonts and handle
   fonts/          Fraunces and Figtree (SIL Open Font License)
   guide/          the Reel Menu, one file that works offline

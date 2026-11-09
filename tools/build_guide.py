@@ -85,11 +85,15 @@ def build(repo):
     assert n == 24, n
     html = rep(html, "<defs>\n", f'<defs>\n    <symbol id="fig" viewBox="0 0 300 400" preserveAspectRatio="none"><image href="{data_uri(clips / "me-figure.png", "image/png")}" width="300" height="400"/></symbol>\n')
     html, n = re.subn(r'<image href="clips/me-figure\.png" (x="[^"]*" y="[^"]*" width="[^"]*" height="[^"]*") preserveAspectRatio="none"', r'<use href="#fig" \1', html)
-    assert n == 71, n
+    assert n == 72, n
+    # the photo inside SVG sketches (#commandchat), cropped like an <img> with object-fit: cover
+    html = rep(html, "<defs>\n", f'<defs>\n    <symbol id="mej" viewBox="0 0 540 960" preserveAspectRatio="xMidYMid slice"><image href="{data_uri(clips / "me.jpg", "image/jpeg")}" width="540" height="960"/></symbol>\n')
+    html, n = re.subn(r'<image href="clips/me\.jpg" (x="[^"]*" y="[^"]*" width="[^"]*" height="[^"]*") preserveAspectRatio="xMidYMid slice"/>', r'<use href="#mej" \1/>', html)
+    assert n == 2, n
     assert "clips/" not in html and "fonts/" not in html, "a relative asset is left"
 
     # words for strangers
-    html = rep(html, "103 Reel styles from @_growwithak as a free Claude Code skill. Download it,", "103 Reel styles by @_growwithak as a free Claude Code skill pack. Install it,")
+    html = rep(html, "106 Reel styles from @_growwithak as a free Claude Code skill. Download it,", "106 Reel styles by @_growwithak as a free Claude Code skill pack. Install it,")
     html = rep(html, "</style>", EXTRA_CSS + "</style>")
     html = rep(html, '<a class="btn" href="#how">How to use it</a>', '<a class="btn" href="#install">Install the pack</a>')
     html = rep(html, '<section class="wrap how" id="how">', INSTALL + '\n<section class="wrap how" id="how">')

@@ -1,13 +1,13 @@
 ---
 name: growwithak-style-pack
-description: Edit a vertical talking-head video into an Instagram Reel using the 103 styles of the growwithak style pack, ordered by hashtag - for example #butterhook #orbit #checklist #split #glowup #pill, the handmade set (#notecard #pinboard #monitor #taped), big moments (#behind #chapter #toolcard), captions (#staircase #smallbig), proof (#highlight #countup #cursor), visual beats (#logoroles #compare #notify), app moments (#chat #dock), signature effects (#wall #cover #popout) and finishes (#warm #buttercanvas). Use when the user says "edit my video with #orbit #pill…", pastes a prompt copied from the growwithak Reel Menu, mentions growwithak styles or the style pack, asks to see them ("show me the growwithak styles", "open the Reel Menu"), or asks to change the pack's colours, fonts or handle.
+description: Edit a vertical talking-head video into an Instagram Reel using the 106 styles of the growwithak style pack, ordered by hashtag - for example #butterhook #orbit #checklist #split #glowup #pill, the handmade set (#notecard #pinboard #monitor #taped), big moments (#behind #chapter #toolcard), captions (#staircase #smallbig), proof (#highlight #countup #cursor), visual beats (#logoroles #compare #notify #map), app moments (#chat #commandchat #dock), signature effects (#wall #cover #popout) and finishes (#warm #buttercanvas). Use when the user says "edit my video with #orbit #pill…", pastes a prompt copied from the growwithak Reel Menu, mentions growwithak styles or the style pack, asks to see them ("show me the growwithak styles", "open the Reel Menu"), or asks to change the pack's colours, fonts or handle.
 ---
 
 # growwithak style pack
 
 You are the user's Reel editor. They film one vertical talking-head take, pick styles from the Reel Menu by hashtag, and you deliver a finished 9:16 Reel on their computer.
 
-All 103 styles and their recipes are in `styles.md` in this folder. Read it first, then read `theme.json`.
+All 106 styles and their recipes are in `styles.md` in this folder. Read it first, then read `theme.json`.
 
 ## Your theme (colours, fonts, handle)
 
@@ -31,7 +31,7 @@ Every colour, font and handle in this pack comes from `theme.json` in this folde
 | | #pill | Butter pill captions | the caption line and the CTA | Words in a white pill under the chin, one key word on butter. |
 | | #pop | Checklist pops | with #checklist | Soft pop on each tick and a click on the tap. |
 | 5 · Handmade | #notecard | Torn notebook note | a section name | Torn lined page above your head, Fraunces title, typed sub-line. |
-| | #pinboard | Pinboard steps | "here's my process" | Blush pinboard, taped lined page, numbered steps pop in; you talk from a circle. |
+| | #pinboard | Pinboard steps | "here's my process" | Blush pinboard, taped lined page, numbered steps pop in; you talk from a big circle framed on your face. |
 | | #monitor | Retro monitor | "code", "prompt", "it wrote" | You drop to the bottom half; a cream monitor types code, then a "Perfectly *clean.*" stamp. |
 | | #taped | Taped screenshot | the app or page name | Screenshot taped at the corners with a torn typewriter label and a blush chip. |
 | | #whisper | Typewriter word tag | any keyword | A small paper tag types one word beside your face. |
@@ -51,6 +51,7 @@ Every colour, font and handle in this pack comes from `theme.json` in this folde
 |  | #logoquestion | Logo-pop question | your opening question | Your spoken question in a white pill just below the top, with the brand logos popping in on the first brand word. |
 |  | #logoswap | Crossed-out logo vs logo | "this replaces that" | Two app icons side by side up top; the old one gets a hand-drawn cocoa cross, the new one stays clean. |
 |  | #twoweight | Two-weight title | your first line | A heavy Figtree caps line over a thin Fraunces caps line, centred up top, lifting away after about 3 seconds. |
+|  | #bigtitle | Big yellow title | your first line | A huge bold butter title over a smaller line ("100+ Styles / 1 command each") above your head, with a cocoa outline so it reads on a light wall. |
 | 8 · Captions | #oneword | One bold word | a fast, punchy line | One word at a time in big Figtree caps on a white block. Punchy and fast. |
 |  | #smallbig | Small + BIG keyword | your caption lines | Small lowercase words with one big Fraunces keyword on butter. Most lines stay small. |
 |  | #punchline | Line + punch line | a setup then a punch | A small white-pill line, then the punch words blur in underneath, bigger, on butter. |
@@ -89,6 +90,7 @@ Every colour, font and handle in this pack comes from `theme.json` in this folde
 |  | #arrownote | Handwritten arrow notes | annotating your work | Little handwritten caps notes with a drawn arrow pointing at a card. |
 |  | #pinned | Pinned note | the whole video | One small handwritten line pinned at the top for the whole video, so the CTA works from second one. |
 |  | #results | Results grid | "it works on anything" | Two rows of results stacked (New over Raw), swapping every second. |
+|  | #map | Map route | a journey or "from A to B" | A flat street map: a red route draws between pins while a little car drives it. |
 | 12 · App moments | #chat | Chat question + reply | asking AI something | Your message types and sends, the reply streams in. |
 |  | #botchat | Bots group chat | AI agents working together | Bots talking to each other with names, avatars and @mentions. |
 |  | #tocalendar | Chat to calendar | "it booked it" | A link is clicked, a calendar opens and the event drops in. |
@@ -100,12 +102,13 @@ Every colour, font and handle in this pack comes from `theme.json` in this folde
 |  | #cast | Character intro | introducing a cast | Character faces pop in a row with name tags. |
 |  | #diagram | Concept diagram | explaining how something works | A simple animated explainer: a cloud, boxes and lines wiring up. |
 |  | #reveal | Cinematic logo reveal | a big launch | Official footage, slow-mo and graded, with the logo gliding in. |
+|  | #commandchat | Command chat | each name in a list | A dark chat screen: each name you say types `/styles #name`, a ✳ "Editing with #name…" line spins, and your clip plays below with that style on it; showpiece styles zoom it to full screen once the command types. |
 | 13 · Signature effects | #wall | Thumbnail wall | "I've made hundreds of these" | The wall behind you fills with a tiled collage of your past thumbnails and screenshots. |
 |  | #uiworld | Chat-app world | typing a request | Your background becomes a clean chat app and the prompt bar types your request above your head. |
 |  | #popout | Frame break | a big claim | Your shot shrinks into a rounded phone frame and your body pokes out over its edge. |
 |  | #headlines | Headline wall | news or reactions | Paper notes, quote cards and search snippets stick onto the wall around your head, one per beat. |
 |  | #zoomthrough | Zoom-through cut | a scene change | Camera pushes hard into a dark part of the frame, goes dark, and the next scene opens out of it. |
-|  | #chart | Chart grow | growth or a big number | A line chart draws across the room behind you and shoots up on the payoff number. |
+|  | #chart | Chart grow | growth or a big number | A line chart draws across the room behind you and shoots up on the payoff number, or the chart types (column, pie, line, bar, area) draw two at a time above your head. |
 |  | #pullback | Pull-back reveal | "this was edited by AI" | Your shot pulls back to reveal it's playing inside an app window with a task list ticking beside it. |
 |  | #double | Second angle | a different view | You at the bottom, and a smaller card above showing the same take from another angle. |
 |  | #papercut | Paper cut | a fun, crafty moment | You become a white-border paper cut-out on a torn-paper collage with cut-out letters and tape. |
@@ -157,6 +160,8 @@ Only ask for what their order needs:
 | #monitor | The real prompt or code to type (up to four short lines) and the stamp word (default "Perfectly *clean.*"). |
 | #comment | Their real comment keyword (e.g. WAITLIST). |
 | #pinboard, #notecard | The steps or section title (default: what they say in the video). |
+| #commandchat | The names to type, one per item (default: the names they say), and the effect or style to show in the clip for each. |
+| #bigtitle | The two title lines (default: a number plus a promise from their hook, e.g. "100+ Styles / 1 command each"). |
 | #strike | The wrong word and the right word (default: their correction line). |
 | #toolcard | Each tool's real logo, its platforms, whether it is free, and a difficulty from 1 to 5. Never guess these. |
 | #aside | The note and the action tag (e.g. "link in bio"). Real products and links only. |
@@ -165,6 +170,7 @@ Only ask for what their order needs:
 | #highlight, #postcard, #quote, #headlines | The real article, post, quote or headline, with its source. |
 | #demo, #reveal | Official footage they are allowed to use. |
 | #countup, #chart, #timer | The real number and where it comes from. |
+| #map | The start, stops and end (default: generic streets, no real places). |
 | #archive, #snapshots, #montage, #wall, #results | Their own photos, clips or thumbnails. |
 | #cursor, #chat, #tocalendar, #tosheets | A full-size screen recording, or the real prompt and reply to recreate (swap anything private). |
 | #double | A second camera angle of the same take. |
